@@ -208,3 +208,132 @@ footer {
         padding: 1rem;
     }
 }
+
+
+
+
+/* Additional styles for the enhanced calculator */
+
+.persona-skills {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.fusion-success {
+    background: linear-gradient(135deg, #e8f5e8 0%, #d4edda 100%);
+    border: 2px solid #28a745;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.fusion-error {
+    background: linear-gradient(135deg, #fce4ec 0%, #f8d7da 100%);
+    border: 2px solid #dc3545;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.result-persona {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.result-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2a5298;
+    margin-bottom: 0.5rem;
+}
+
+.result-details {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.result-arcana {
+    background: #2a5298;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.result-level {
+    background: #28a745;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.result-skills {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.special-badge {
+    background: linear-gradient(45deg, #ffd700, #ffed4e);
+    color: #333;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+.fusion-tip {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    border-left: 4px solid #2a5298;
+}
+
+.clear-btn {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.clear-btn:hover {
+    background: #5a6268;
+}
+
+.persona-card {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.persona-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .result-details {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .result-arcana, .result-level {
+        display: inline-block;
+        margin-right: 0.5rem;
+    }
+}
+
+
+
+
+
